@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
 import './TodoList.css'
+import TodoRecord from "./TodoRecord";
 
 class TodoList extends Component {
+
+
     render() {
         return (
             <div className="todo-list">
-                <label>Get milk</label>
-                <button>Remove</button>
+                <TodoRecord/>
             </div>
         );
     }
+
+
 }
 
 export default TodoList;
